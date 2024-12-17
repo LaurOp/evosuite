@@ -12,7 +12,7 @@ class Mail {
         this.recipient = recipient;
         this.subject = subject;
         this.body = body;
-        this.isRead = false; // New mails are unread by default
+        this.isRead = false;
     }
 
     public String getSender() {
